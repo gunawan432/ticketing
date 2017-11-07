@@ -1,0 +1,166 @@
+body{
+   background-color: grey;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+   font-size: 14px;
+}
+
+
+
+/*pengaturan layout utama */
+#layout{
+	background: #F53438;
+	width: 980px;
+	margin: auto;
+	text-align: left;
+	padding: 2px;
+}
+#header{
+	widht: 100%;
+	height: 130px;
+	background-color: aqua;
+	perspective-origin: relative;
+}
+.header{
+	width: 100%
+	height:130px;
+}
+
+
+/*pengaturan menu */
+#menu{
+	width: 100px;
+	height: 40px;
+	background-color: #74898F;
+	position: relative;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li a{
+	float: left;
+	color: #000000;
+	padding: 12px 20px;
+	text-decoration: none;
+	background: maron;
+	border-left: 1px solid #030000;
+	border-right: 1px solid #BC0D0D;
+}
+#menu ul li a|hover {
+	 color: #BC4244;
+	 background: #DB7072;
+}
+
+
+/* pengaturan running text */
+#runningtext{
+	width: 100px;
+	height: 25px;
+	padding-top: 7px;
+	margin: 5px 0 5px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+
+#sidebar{
+	padding: 5px;
+	width: 270%;
+	background-color: #6C0E10;
+	position: relative;
+	float: right;
+	/*memberikan garis putus-putus*/
+	border-style: dotted;
+	border-width: 1px;
+}
+/*pengaturan widget sidebar*/
+.widget{
+	width: 99%;
+	background-bottom: 5px;
+	background: #9E080B;
+	border-top: 1px solid #A04D4F;
+	border-bottom: 1px solid #A04D4F;
+	border-right: 1px solid #A04D4F;
+	border-left: 1px solid #A04D4F;
+}
+/*pengaturan ukuran iklan dg gambar pada widged*/
+.gambariklan{
+	width: 99%;
+	height: 150px;
+}
+/*pengaturan judul widged*/
+.judulwidged{
+	background: #000000;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 5px;
+	margin-bottom: 5px;
+}
+.widged ul{
+	margin: 0px 0px 0px 0px; /*top right bottom*/
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+.widged h a {
+	color:#E57F81;
+	border-bottom: 1px dotted #000000;
+	background-repeat: no-repeat;
+	color: #333333;
+}
+.widged h a|hover{
+	color: blue;
+}
+/*pengaturan isi */
+#isi{
+	padding: 5px;
+	width: 70%;
+	height: auto;
+	background-color: #B72225;
+	position: relative;
+	margin-top: 5px;
+}
+/*pengaturan posting */
+.isiposting{
+	background-color: #B72225;
+	width: 98%;
+	height: 150px;
+	padding: 5px;
+}
+.gambardepan{
+	float: left;
+	height: 140px;
+	widht:  150px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border: 1px solid #dddddd;
+}
+/*pengaturan heading2 judul */
+.isiposting h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+	padding-top: 30;
+	background-color: yellow;
+	font-size: 12pt;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+
